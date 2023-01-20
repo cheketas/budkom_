@@ -1,0 +1,33 @@
+/* Preloader */
+.loader {
+height: 100vh;
+}
+.preloader {
+    margin: 0px auto;
+    width: 6rem;
+    height: 6rem;
+    background: transparent;
+    z-index: 9999;
+    }
+    
+    .preloader::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 3px solid #3B6950;
+    border-top-color: transparent;
+    animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+    }
+    /* End Preloader */

@@ -1,0 +1,18 @@
+.myBtn {
+    background-color: white;
+    border: none; /* убрать границы */
+    border-radius: 5px; /* скругленные края */
+    width: 90%; /* ширина половина блока */
+    font-size: 20px; /* размер текста */
+    color: #4e4e4e; /* цвет текста */
+    padding: 10px; /* отступы внутри поля */
+    outline: none; 
+    } 
+    .myBtn::placeholder {
+        color: #888888; /* цвет плейсхолдера */
+        font-size: 20px; /* размер текста */
+        content: "Email"; /* текст плейсхолдера */
+      }
+    .myBtn:focus{
+      outline: 1px solid rgb(119, 119, 119); 
+    }

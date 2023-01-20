@@ -1,0 +1,15 @@
+
+.myBtn {
+    background: #3B6950;
+    border-radius: 6px;
+    font-family: 'InterSemiBold';
+  font-size: 1.2rem;
+  /* identical to box height */
+border:0px;
+padding:0.5rem;
+height:3rem;
+  color: #FFFFFF;
+      outline: none; /* убирать контур в Mozilla */
+    } 
+    .myBtn:hover { background: rgb(43, 78, 58);cursor:pointer; } /* при наведении курсора мышки */
+    .myBtn:active { background: #244131; } /* при нажатии */
